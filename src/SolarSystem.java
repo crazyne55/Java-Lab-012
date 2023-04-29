@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author crazyne55
+ */
 public class SolarSystem {
     List<Planet> planets;
     Sun theSun;
@@ -19,6 +22,9 @@ public class SolarSystem {
             System.out.println(p.toString());
         }
     }
+    /**
+     * @author Trevor Hartman
+     */
     public void movePlanets() {
         double G = 0.1;
         double dt = 0.001;

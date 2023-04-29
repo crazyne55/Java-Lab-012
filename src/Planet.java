@@ -1,3 +1,6 @@
+/**
+ * @author crazyne55
+ */
 public class Planet {
     String name;
     double radius;

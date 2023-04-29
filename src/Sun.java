@@ -1,3 +1,6 @@
+/**
+ * @author crazyne55
+ */
 public class Sun {
     String name;
     double radius;

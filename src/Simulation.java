@@ -1,3 +1,6 @@
+/**
+ * @author crazyne55
+ */
 public class Simulation {
     public static void main(String[] args) {
         SolarSystem ss = new SolarSystem();
