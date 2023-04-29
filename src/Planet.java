@@ -7,8 +7,15 @@ public class Planet {
     double y;
     double velX;
     double velY;
-    public Planet(String name, double radius, double mass, double distance, double velX, double velY) {
-
+    public Planet(String name, double radius, double mass, double distance, double x, double y, double velX, double velY) {
+        this.name = name;
+        this.radius = radius;
+        this.mass = mass;
+        this.distance = distance;
+        this.x = x;
+        this.y = y;
+        this.velX = velX;
+        this.velY = velY;
     }
     public double getXPos() {
         return x;
